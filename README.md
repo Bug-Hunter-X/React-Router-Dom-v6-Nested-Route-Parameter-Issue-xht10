@@ -1,0 +1,3 @@
+This repository demonstrates a common issue encountered when using nested routes with parameters in React Router DOM v6.  The problem arises when defining a nested route with a parameter within a parent route that also consumes part of the URL path. This can lead to unexpected routing behavior, where the nested route parameter might not be correctly parsed or the component associated with the nested route doesn't render as expected.
+
+The solution involves carefully considering how parent and child routes interact with each other, ensuring parameters are correctly handled, and making sure the URL structure is well-defined to avoid ambiguity.  See the `AppSolution.js` file for a corrected implementation.
